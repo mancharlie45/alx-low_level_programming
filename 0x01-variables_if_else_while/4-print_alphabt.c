@@ -17,10 +17,6 @@ lw += 1;
 }
 else
 {
-lw += 1;
-}
-else
-{
 putchar(lw);
 lw += 1;
 }
