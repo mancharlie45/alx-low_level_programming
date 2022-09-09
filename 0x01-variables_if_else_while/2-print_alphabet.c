@@ -1,5 +1,5 @@
 #include <stdio.h>
-#include <type.h>
+#include <ctype.h>
 
 /**
  * main - program that prints the alphabet in lower case, followed by a bew line
