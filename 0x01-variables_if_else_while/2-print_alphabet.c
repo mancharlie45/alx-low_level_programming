@@ -2,7 +2,7 @@
 #include <ctype.h>
 
 /**
- * main - program that prints the alphabet in lower case, followed by a bew line
+ * main - program that prints the alphabet in lower case, followed by a new line
  * You can only use the putchar
  * Return: 0
  */
