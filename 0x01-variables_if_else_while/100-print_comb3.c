@@ -29,6 +29,6 @@ n2 += 1;
 }
 n1 += 1;
 }
-puchar('\n');
+putchar('\n');
 return (0);
 }
