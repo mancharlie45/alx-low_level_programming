@@ -6,7 +6,7 @@
  * Return: nothing.
  */
 
-void print_alphabet(void)
+int main(void)
 {
 int l = 'a';
 
