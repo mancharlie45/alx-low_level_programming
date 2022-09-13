@@ -9,9 +9,9 @@
 int main(void)
 {
 int n = 0;
-char str_put[8] = "_putchar";
+char str_put[7] = "putchar";
 
-while (n < 8)
+while (n < 7)
 {
 _putchar(str_put[n]);
 n += 1;
