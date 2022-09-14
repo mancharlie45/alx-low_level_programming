@@ -31,6 +31,7 @@ putchar((mult / 10) + '0');
 putchar((mult % 10) + '0');
 }
 if (col !=9)
+{
 putchar(',');
 }
 putchar('\n');
