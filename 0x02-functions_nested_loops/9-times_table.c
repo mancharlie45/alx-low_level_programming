@@ -8,31 +8,34 @@
 
 void times_table(void)
 {
-int row, col;
-int mult = 0;
+int x, y, z, u, d;
+for (x = 0; x <= 9; x++)
+{
+for (y = 0; y <= 9; y++)
+{
+z = x * y;
 
-for (row = 0; row < 10; row++)
+if (z > 9)
 {
-for (col = 0; col < 10; col++)
-mult = (row * col);
-if (mult < 10)
-{
-if (col != 0)
-{
-putchar(' ');
-putchar(' ');
-}
-putchar(mult + 0);
+u = z % 10;
+d = (z - u) / 10;
+
+putchar(44);
+putchar(32);
+putchar(d + '0')
+putchar(u + '0');
 }
 else
 {
-putchar(' ');
-putchar((mult / 10) + '0');
-putchar((mult % 10) + '0');
-}
-if (col !=9)
+if (y != 0)
 {
-putchar(',');
+putchar(44);
+putchar(32);
+putchar(32);
+}
+
+putchar(z = '0');
+}
 }
 putchar('\n');
 }
