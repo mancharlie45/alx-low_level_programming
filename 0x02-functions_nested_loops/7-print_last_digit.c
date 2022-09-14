@@ -6,11 +6,11 @@
  * Retur: int.
  */
 
-int print_last_digit(int x)
+int print_last_digit(int n)
 {
-int x;
-x %= 10;
-if (x < 0)
-x *= -1;
-putchar(x + '0');
-return (x);
+int last;
+last = n % 10;
+if (last < 0)
+last = last * -1;
+putchar(last + '0');
+return (last);
