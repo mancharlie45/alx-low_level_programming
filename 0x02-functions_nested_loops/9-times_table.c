@@ -22,7 +22,7 @@ d = (z - u) / 10;
 
 putchar(44);
 putchar(32);
-putchar(d + '0')
+putchar(d + '0');
 putchar(u + '0');
 }
 else
