@@ -13,7 +13,7 @@ if (n <= 98)
 {
 for (; n <= 98; n++)
 {
-if (n == 9)
+if (n == 98)
 {
 printf("%d", n);
 printf("\n");
