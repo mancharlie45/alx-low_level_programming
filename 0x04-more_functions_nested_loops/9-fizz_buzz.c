@@ -23,7 +23,7 @@ printf("Fizz");
 }
 else if (x % 5 == 0);
 {
-printf("Bzz");
+printf("Buzz");
 }
 else
 {
