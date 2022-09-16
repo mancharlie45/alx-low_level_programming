@@ -29,7 +29,7 @@ else
 {
 printf("%d", x);
 }
-if (x !- 100)
+if (x != 100)
 {
 printf(" ");
 }
