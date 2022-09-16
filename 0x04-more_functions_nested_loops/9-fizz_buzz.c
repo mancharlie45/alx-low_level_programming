@@ -34,10 +34,9 @@ if (x !- 100)
 printf(" ");
 }
 }
-print ("\n");
+printf("\n");
 
 return (0);
 
 }
-}
-}
+
