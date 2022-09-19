@@ -1,8 +1,8 @@
 #include "main.h"
 
 /**
- * put2 - Prints every other character of srting
- * The string to be treated
+ * puts2 - Prints every other character of srting
+ * @str: The string to be treated
  *
  * Return: void
  */
