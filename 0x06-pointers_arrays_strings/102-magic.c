@@ -1,4 +1,7 @@
 #include "main.h"
+/**
+ * magic - a code that prints a[2] = 98
+ */
 
 int main(void)
 {
