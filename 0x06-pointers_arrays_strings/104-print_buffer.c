@@ -35,8 +35,6 @@ break;
 if(*(b + l) < 32 || *(b + l) > 126)
 printf("%c", '.');
 else
-printf("%c", '.');
-else
 printf("%c", *(b +  l));
 }
 printf("\n");
