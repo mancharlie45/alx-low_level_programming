@@ -4,7 +4,7 @@
  * to uppercase
  * @s: input.
  *
- * Retun: the pointer to dest.
+ * Return: the pointer to dest.
  */
 
 char *string_toupper(char *s)
