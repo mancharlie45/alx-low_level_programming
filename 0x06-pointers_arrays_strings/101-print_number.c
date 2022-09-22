@@ -6,7 +6,7 @@
  */
 void print_number(int n)
 {
-unsigned int m, n, count;
+unsigned int m, d, count;
 if (n < 0)
 {
 _putchar(45);
