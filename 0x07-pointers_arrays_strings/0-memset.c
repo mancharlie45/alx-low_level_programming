@@ -1,5 +1,4 @@
 #include "main.h"
-#include <stdio.h>
 
 /**
  * _memset - Fill memory with a constant byte,
@@ -18,3 +17,4 @@ for (i = 0; i < n; i++)
 
 return (s);
 }
+
