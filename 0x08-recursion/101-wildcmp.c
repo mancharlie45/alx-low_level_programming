@@ -29,7 +29,7 @@ int l = _strlen_recursion(s) - 1;
 if (*s == s[l])
 {
 s++;
-l--
+l--;
 }
 else
 {
