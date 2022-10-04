@@ -43,6 +43,8 @@ return (NULL);
 }
 for (i = a1 = 0; i < height; i++)
 {
+for (c = a1; str[c] != '\0'; c++)
+{
 if (str[c] == ' ')
 a1++;
 if (str[c] != ' ' && (str[c + 1] == ' ' || str[c + 1] == '\0'))
@@ -57,6 +59,10 @@ break;
 }
 }
 for (j = 0; a1 <= c; a1++, j++)
+aout[i][j] = str[a1];
+aout[i][j] = '\0';
+}
 aout[i] = NULL;
 return (aout);
 }
+
