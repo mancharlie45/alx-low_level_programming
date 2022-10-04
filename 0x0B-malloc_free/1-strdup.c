@@ -12,20 +12,18 @@ char *_strdup(char *str)
 char *dup;
 unsigned int i, len;
 
-i = 0;
-len = 0;
-
 if (str == NULL)
 return (NULL);
 
-while (str[len])
-len++;
+for (i = 0; str[i] != '\0'; i++)
 
-dup = malloc(sizeof(char) * (len * 1));
+dup = malloc(sizeof(char) * (i + 1));
 
 if (dup == NULL)
 return (NULL);
-while ((dup[i] = str[i] != '\0'))
-i++;
+
+for (len = 0; len <= i; len++
+dup[len] = str[len];
+
 return (dup);
 }
