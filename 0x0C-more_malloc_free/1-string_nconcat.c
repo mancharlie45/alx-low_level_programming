@@ -14,9 +14,10 @@ char *string_nconcat(char *s1, char *s2, unsigned int n)
 {
 char *sout;
 unsigned int ls1, ls2, lsout, i;
+
 if (s1 == NULL)
 s1 = "";
-if (s2 = NULL)
+if (s2 == NULL)
 s2 = "";
 for (ls1 = 0; s1[ls1] != '\0'; ls1++)
 ;
@@ -40,3 +41,4 @@ sout[i] = s2[i - ls1];
 
 sout[i] = '\0';
 return (sout);
+}
