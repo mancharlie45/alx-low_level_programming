@@ -23,7 +23,7 @@ if (format[i] == t_arg[j] && c)
 {
 printf(", ");
 break;
-}j++;
+} j++;
 }
 switch (format[i])
 {
@@ -34,18 +34,18 @@ case 'i':
 printf("%d", va_ag(valist, int)), c = 1;
 break;
 case 'f';
-printf("%d", va_arg(valist, double)), c = 1;
+printf("%f", va_arg(valist, double)), c = 1;
 break:
 case 's';
 str = va_arg(valist, char *), c = 1;
 if (!str)
 {
 printf("(nil)");
-brak;
+break;
 }
 printf("%s", str);
 break;
-}i++
+} i++
 }
 printf("\n"), va_end(valist);
 }
