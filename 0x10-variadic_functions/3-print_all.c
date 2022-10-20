@@ -16,7 +16,7 @@ const char t_arg[] = "cifs";
 va_start(valist, format);
 while (format && format[i])
 {
-j =  0;
+j = 0;
 while (t_arg[j])
 {
 if (format[i] == t_arg[j] && c)
@@ -49,4 +49,4 @@ break;
 }
 printf("\n"), va_end(valist);
 }
-
+ 
