@@ -30,7 +30,7 @@ w = write(o, text_content, len);
 
 if (o == -1 || w == -1)
 return (-1);
- close(0);
+close(0);
 
- return (1);
- }
+return (1);
+}
